@@ -79,7 +79,7 @@ def coverage_histogram(gene_dic):
 #        if coverage !=0.0:
 #            print(coverage)
         coverage_count_list.append(coverage)
-    #coverage_count_list=[0,0,0,0.7,0.78,0.69,0.54,0.9,0.9,0.9,1,1,1,1]  
+  
     data=pd.Series(coverage_count_list)
 
     data.plot.hist(grid=True, color = 'grey', rwidth=1, bins=30)    
