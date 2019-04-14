@@ -80,12 +80,12 @@ def parse_BLAST_Output(blast_records):
 
 
     df = pandas.DataFrame(data=df_dic)
-    df.to_csv('./output_N1_Shekari2017_parsed.csv', sep=',')  
+    df.to_csv('./output_N23_Shekari2017_parsed.csv', sep=',')  
         
 
 if __name__ == '__main__':
     
-    result_handle = open("/Users/yifan/BIOC396/tryblast/Shekari/N1.xml")
+    result_handle = open("./N23.xml")
 
     blast_records = NCBIXML.parse(result_handle)
 

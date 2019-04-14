@@ -1,6 +1,6 @@
 #!/bin/bash
 #this script outputs blastp result as xml file
-#$1: E-value
+#$1: E-value //set to 500 for now
 #$2: query file name
 #$3: output file name 
 #change your direcoty as needed
