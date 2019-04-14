@@ -19,4 +19,4 @@
 - *coverage_histogram_generator.py*: to generate histograms of transcript coverage per gene in the GeTPRA framework by the tandem mass spectrometry evidence, and of number of transcripts per gene in the GeTPRA framework (Figure 1, Figure 2).
 
 
-*** This work is supervised by Dr. Uri David Akavia. All the figures, tables and supplementary information can be found under the data summary folder. A detailed report is also included in this repository. 
+*This work is supervised by Dr. Uri David Akavia. A detailed report is included in this repository. All the figures, tables and supplementary information can be found under the data summary folder.*
