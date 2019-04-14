@@ -6,6 +6,9 @@
 
 ### Materials (Source of the experimental datasets)
 - The experimental data chosen in this work come from two recent studies that cover data obtained from tandem mass spectrometry technique, including a sub-cellular fractionation-based study and a biotinylation study aimed at inner mitochondrial membrane (IMM) proteome using an in situ-generated radical probe with genetically targeted peroxidase (APEX) (accessed Feb 11, 2019).
+#####  Links to the publications:
+- https://www.ncbi.nlm.nih.gov/pubmed/28435121
+- https://pubs-acs-org.proxy3.library.mcgill.ca/doi/suppl/10.1021/jacs.6b10418
 
 ### Methods
 - *inputFastaGenerator.py*: to fetch and process the experimental data from the two studies aforementioned. Repeated entries of peptide sequence-subcellular location were removed, since the relative quantity of each peptide in its subcellular compartment is irrelevant in this work. The resulted list of unique peptide sequence-subcellular location entries was then used to write a FASTA file to make queries using command line BLASTP10, 11. Data from Lee et al.’s study was processed in a similar manner, with a FASTA file containing unique peptide sequences as input to command line BLASTP.
@@ -19,4 +22,4 @@
 - *coverage_histogram_generator.py*: to generate histograms of transcript coverage per gene in the GeTPRA framework by the tandem mass spectrometry evidence, and of number of transcripts per gene in the GeTPRA framework (Figure 1, Figure 2).
 
 
-*\*This work is supervised by Dr. Uri David Akavia, Biochemistry Department, McGill University. A detailed report is included in this repository. All the figures, tables and supplementary information can be found under the data summary folder.*
+*\*This work is supervised by Dr. Uri David Akavia, Biochemistry Department, McGill University. A detailed report with references is included in this repository. All the figures, tables and supplementary information can be found under the data summary folder.*
