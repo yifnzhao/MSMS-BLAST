@@ -4,7 +4,7 @@
 ### Project abstract
 - Towards the improvement of human genome-scale metabolic models (GEMs), it is important to consider the biological roles of protein isoforms in the context of human metabolism. A systemic framework of gene-transcript-protein-reaction associations (GeTPRA) was developed to facilitate model integration with transcript-level compatible data characterizing the functional roles of protein isoforms. A potential problem associated with the generation of the GeTPRA framework is its employment of a prediction algorithm to obtain subcellular protein localization data. This study aims to assess the reliability of the subcellular localization data to provide suggestions for future updates of the GeTPRA framework and for the development and reconstruction of more robust human GEMs. Our analysis of protein localization information of a total of 17275 peptide sequences from two tandem mass spectrometry-based experimental datasets demonstrates that there are approximately equal proportions of GeTPRA protein localization predictions supported or not supported by experimental evidence. This result implies that more caution needs to be taken with the use of prediction algorithms alone when integrating protein localization data in the existing metabolic models. It is therefore necessary to review a substantial number of protein localization studies and to employ a hierarchical decision-making model based on reliability scores of such studies for the future improvements of the GeTPRA frameworks as well as human GEMs.
 
-### Materials (Source of the experimental datasets)
+### Materials
 - The experimental data chosen in this work come from two recent studies that cover data obtained from tandem mass spectrometry technique, including a sub-cellular fractionation-based study and a biotinylation study aimed at inner mitochondrial membrane (IMM) proteome using an in situ-generated radical probe with genetically targeted peroxidase (APEX) (accessed Feb 11, 2019).
 #####  Links to the publications:
 - https://www.ncbi.nlm.nih.gov/pubmed/28435121
@@ -22,4 +22,4 @@
 - *coverage_histogram_generator.py*: to generate histograms of transcript coverage per gene in the GeTPRA framework by the tandem mass spectrometry evidence, and of number of transcripts per gene in the GeTPRA framework (Figure 1, Figure 2).
 
 
-*\*This work is supervised by Dr. Uri David Akavia, Biochemistry Department, McGill University. A detailed report with references is included in this repository. All the figures, tables and supplementary information can be found under the data summary folder.*
+*\*This work is supervised by Dr. Uri David Akavia, Biochemistry Department, McGill University. A report with detailed results, discussion and references is included in this repository. All the figures, tables and supplementary information can be found under the data summary folder.*
