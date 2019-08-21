@@ -1,2 +1,2 @@
 # MSMS-BLAST
- Using Protein Localization Studies to Assess the GeTRPRA Framework
+ Using protein localization studies to assess the GeTRPRA framework
